@@ -23,7 +23,7 @@ chmod u+x install.sh
 ![alt text](https://github.com/snowcra5h/dev-config-files/blob/master/Images/Screenshot%20from%202022-12-12%2014-41-24.png)
 
 ## Shortcuts
-
+- `f9`: set a break point
 - `ctrl + f6`: compile c code. 
 - `f5`: run the code in the debugger
 - `ctrl + f5`: close the debugger
