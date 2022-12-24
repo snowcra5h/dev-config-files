@@ -24,14 +24,16 @@ echo -e "\n ${GREEN} [+] - ${YELLOW} Installing the Dotfiles\n ${NC}"
 mv ~/.vimrc ~/.vimrc.old 2>/dev/null
 mv ~/.clang-format ~/.clang-format.old 2>/dev/null
 mv ~/.vimspector.json ~/.vimspector.json.old 2>/dev/null
+mv ~/.tmux.conf ~/.tmux.conf.old 2>/dev/null
 
+cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
 cp .clang-format ~/.clang-format
 cp .vimspector.json ~/.vimspector.json
 
 ## Required Packages
 echo -e "\n ${GREEN} [+] - ${YELLOW} Updating the System and Installing the Required Packages\n ${NC}"
-sudo apt update && sudo apt upgrade -y && sudo apt install -y git curl wget vim build-essential cmake vim-nox python3-dev mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm exuberant-ctags
+sudo apt update && sudo apt upgrade -y && sudo apt install -y git curl wget vim build-essential cmake vim-nox python3-dev mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm tmux exuberant-ctags
 
 ## YouCompleteMe
 echo -e "\n ${GREEN} [+] - ${YELLOW} Installing YouCompleteMe\n ${NC}"
