@@ -12,7 +12,7 @@ cd ~/dev-config-files
 chmod u+x install.sh
 ./install.sh
 ~/.vim/plugged/vimspector/
-cp ~.vimspector.json ~/.vim/plugged/vimspector/.vimspector.json
+cp ~/.vimspector.json ~/.vim/plugged/vimspector/.vimspector.json
 cd ~/.vim/plugged/vimspector/install_gadget.py --all
 ```
 ## How the Environment Should Look Once Installed
