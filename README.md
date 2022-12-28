@@ -25,8 +25,6 @@ cd ~/.vim/plugged/vimspector/install_gadget.py --all
 ### The Shell
 - With alacritty and Zed-Fonts installed. 
 ![image](https://user-images.githubusercontent.com/90065760/209422015-cabebd27-843f-45a7-a92a-570abbd85181.png)
-- Without alacritty and Zed-Fonts installed.
-![alt text](https://github.com/snowcra5h/dev-config-files/blob/master/Images/Screenshot%20from%202022-12-12%2014-41-24.png)
 
 ## Shortcuts
 - `f9`: set a break point
